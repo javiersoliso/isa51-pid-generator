@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# CAD lock and backup files (AutoCAD opens the DXF and leaves these behind)
+*.dwl
+*.dwl2
+*.bak
+*.sv$
+
+# Secrets
+.env
+secrets.*
+
+# Operating system
+Thumbs.db
+desktop.ini
+.DS_Store
